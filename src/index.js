@@ -13,6 +13,7 @@ import {
   faTags,
   faStar,
   faStarHalfAlt,
+  faArrowLeft
 } from "@fortawesome/free-solid-svg-icons";
 
 library.add(
@@ -23,14 +24,11 @@ library.add(
   faBookOpen,
   faTags,
   faStar,
-  faStarHalfAlt
+  faStarHalfAlt,
+  faArrowLeft
 );
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+root.render(<App />);
 
 reportWebVitals();
