@@ -92,6 +92,7 @@ button:active {
 
 .logo {
   width: 160px;
+  scale: 1.4;
 }
 
 .nav__container {
@@ -474,6 +475,7 @@ footer {
 .footer__logo--img {
   width: 160px;
   filter: grayscale(1) invert(1);
+  scale: 1.4;
 }
 
 .footer__link,
